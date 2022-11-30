@@ -1,0 +1,131 @@
+.content {
+    padding: 20px 0;
+    border-bottom: 1px solid #16182333;
+}
+
+.wrapper {
+    display: flex;
+    flex: 1;
+
+    .avatar {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+    .middle {
+        flex: 1;
+
+        .info {
+            display: flex;
+            align-items: baseline;
+
+            .nickname {
+                display: flex;
+                align-items: baseline;
+
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 25px;
+
+                .check {
+                    font-size: 1.4rem;
+                    color: #20d5ec;
+                    margin: 0 4px;
+                }
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .name {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+
+        .title {
+            font-size: 16px;
+            line-height: 22px;
+            color: #161823;
+        }
+
+        .music {
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            color: #161823;
+            margin-top: 4px;
+            margin-bottom: 12px;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            .music-name {
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                margin-left: 4px;
+            }
+        }
+    }
+
+    .follow-btn {
+        padding: 3px 0px;
+        min-width: 86px;
+    }
+}
+
+.videos {
+    display: flex;
+
+    .video-item {
+        width: 50%;
+        max-height: 600px;
+        margin-left: 76px;
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+
+    .actions {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+
+        .action-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .icon {
+            border-radius: 50%;
+            background-color: #f1f1f2;
+            margin-top: 8px;
+            margin-bottom: 6px;
+            cursor: pointer;
+
+            .icon-name {
+                font-size: 24px;
+                color: #161823;
+                padding: 12px;
+            }
+        }
+
+        .number {
+            olor: #161823bf;
+            font-size: 12px;
+            line-height: 17px;
+        }
+    }
+}
